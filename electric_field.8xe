@@ -1,0 +1,29 @@
+(9*10^~9)->O // oofpez
+0->I // E sum in I
+0->J // E sum in J
+0->K // E sum in K
+
+Disp "0 to stop"
+Disp "C=1 to cont"
+
+1->C
+
+While C=1
+	Disp "OBS Loc:"
+	Prompt X
+	Prompt Y
+	Prompt Z
+	
+	Disp "Charge:"
+	Prompt Q
+	sqrt(X^2+Y^2+Z^2)->M
+	// x hat
+	X/M->V
+	// y hat
+	Y/M->B
+	// z hat
+	Z/M->N
+	
+	
+	Prompt C
+End
